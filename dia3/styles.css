@@ -3,108 +3,42 @@ body{/*Fondo principal*/
     background-image: linear-gradient(white, rgb(77, 77, 70));
 }
 .cuadro1{
+    position: relative;
         Margin:auto;
         top: 200px;
-        left: 1390px;
-        width: 1000px;
-        height: 550px;
+        width: 1400px;
+        height: 800px;
         background-color: white  
 }   
 .cuadro1 .logo1{
-    top: 243px;
-    left: 143px;
-    width: 196px;
+    margin: auto;
+    width: 1400px;
     height: 44px;
 }
-.cuadro1 .CompraTarjeta{
-    top: 240px;
-    left: 800px;
-    width: 230px;
-    height: 41px;
-}
-.cuadro1 .OpSaldo{
-    top: 242px;
-    left: 1072px;
-    width: 132px;
-    height: 41px;
-}
-.cuadro1 .Lupita{
-    top: 252px;
-    left: 1224px;
-    width: 27px;
-    height: 27px;
-}
-.cuadro1 .carrito{
-    top: 252px;
-    left: 1324px;
-    width: 33px;
-    height: 32px;
-}
-.cuadro1 .targeta{
-    top: 322px;
-    left: 227px;
-    width: 884px;
-    height: 497px;
-}
-.cuadro1 .NombrePrecio{
-    top: 861px;
-    left: 158px;
-    width: 716px;
-    height: 55px;
-}
-.cuadro1 .NumPrecio{
-    top: 924px;
-    left: 157px;
-    width: 139px;
-    height: 37px;
-}
-.cuadro1 .CuadVer{
-    top: 847px;
-    left: 1180px;
-    width: 160px;
-    height: 114px;
-}
-.cuadro1 .compra{
-    top: 917px;
-    left: 1205px;
-    width: 111px;
-    height: 36px;
-}
-.cuadro1 .logo2{
-    top: 876px;
-    left: 1195px;
-    width: 129px;
-    height: 29px;
-}
-.cuadro1 .cuadroN{
+.cuadro1 .logo1 .logo{
     position: relative;
-    margin-top: -72%;
-    margin-left: 91%;
-    width: 100px;
-    height: 544px;
-    background-color: black 
+    left: 43px;
+    top: 43px;
 }
-.cuadro1 .cuadroN.FlechaArriba{
-    top: 240px;
-    left: 1433px;
-    width: 24px;
-    height: 14px;
+.cuadro1 .logo1 p{
+    position: relative;
+    left: 700px;
+    bottom: 20px;
+    font-size: 30px;
 }
-.cuadro1 .cuadroN.cantidad{
-    top: 349px;
-    left: 1403px;
-    width: 84px;
-    height: 27px;
+.cuadro1 .logo1 a{
+    position: relative;
+    left: 972px;
+    bottom: 83px;
+    font-size: 30px;
 }
-.cuadro1 .cuadroN.Menu{
-    top: 507px;
-    left: 1430px;
-    width: 23px;
-    height: 187px;
+.cuadro1 .logo1 .lupa{
+    position: relative;
+    left: 1000.7px;
+    bottom: 79px;
 }
-.cuadro1 .cuadroN.FlechaAbajo{
-    top: 946px;
-    left: 1433px;
-    width: 24px;
-    height: 14px;
+.cuadro1 .logo1 .carrito{
+    position: relative;
+    left: 1050px;
+    bottom: 79px;
 }
