@@ -22,25 +22,25 @@ body{/*Fondo principal*/
 }
 .cuadro1 .parteSuperior p{
     position: relative;
-    left: 700px;
-    bottom: 20px;
+    left: 972px;
+    bottom: 23px;
     font-size: 30px;
 }
 .cuadro1 .parteSuperior a{
     position: relative;
-    left: 932px;
-    bottom: 120px;
+    left: 700px;
+    bottom: 130px;
     font-size: 30px;
 }
 .cuadro1 .parteSuperior .lupa{
     position: relative;
-    left: 950px;
-    bottom: 115px;
+    left: 909px;
+    bottom: 120px;
 }
 .cuadro1 .parteSuperior .carrito{
     position: relative;
-    left: 1050px;
-    bottom: 110px;
+    left: 980px;
+    bottom: 116px;
 }
 .cuadro1 .CuadroNegro{
     position: relative;
@@ -61,44 +61,50 @@ body{/*Fondo principal*/
     left: 18px;
     top: 710px;
 }
-.cuadro1 .CuadroNegro .cantidad{
+.cuadro1 .CuadroNegro p{
     position: relative;
-    left: 14px;
-    top: 150px;
+    left: 30px;
+    top: 130px;
+    font-size: 20px;
+    color: white;
+    font-family: Open Sans, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.cuadro1 .CuadroNegro .menu{
+.cuadro1 .CuadroNegro .precio{
     position: relative;
-    left: 45px;
-    top: 230px;
+    left: 20px;
+    top: 200px;
+    width: 80px;
 }
 .cuadro1 .Tarjeta .tarjeta{
     position: relative;
-    left: 130px;
-    bottom: 680px;
+    left: 220px;
+    bottom: 760px;
+    width: 700px;
 }
-.cuadro1 .parteInferior .nombrePrecio{
+.cuadro1 .parteInferior .totalInferior{
     position: relative;
-    left: 58px;
-    bottom: 661px;
+    left: 150px;
+    bottom: 800px;
+    width: 800px;
+    height: 290px;
 }
-.cuadro1 .parteInferior .numeroPrecio{
-    position: relative;
-    right: 660px;
-    bottom: 620px;
-}
+
 .cuadro1 .cuadroV .cuadroVerde{
     position: relative;
     left: 1080px;
-    bottom: 747px;
+    bottom: 870px;
 }
 .cuadro1 .cuadroV .logoP{
     position: relative;
     left: 930px;
-    bottom: 800px;
+    bottom: 930px;
     width: 130px;
 }
-.cuadro1 .cuadroV .comprar{
+.cuadro1 .cuadroV p{
     position: relative;
-    left: 810px;
-    bottom: 760px;
+    left: 1111px;
+    bottom: 950px;
+    font-size: 26px;
+    font-family: Open Sans, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
