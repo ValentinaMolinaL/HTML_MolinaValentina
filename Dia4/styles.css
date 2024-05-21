@@ -235,3 +235,59 @@ body{
     font-family: cuadroBlanco1;
     color: white;
 }
+.BloquesAzules .fechaD{
+    position: relative;
+    left: 1130px;
+    bottom: 1780px;
+    width: 20px;
+    height: 20px;
+}
+.BloquesAzules .fechaI{
+    position: relative;
+    left:98px;
+    bottom: 1780px;
+    width: 20px;
+    height: 20px;
+}
+.BloquesAzules .pantalla1{
+    position: relative;
+    width: 210px;
+    height: 150px;
+    left: 120px;
+    bottom: 1700px;
+}
+.BloquesAzules .pantalla2{
+    position: relative;
+    width: 270px;
+    height: 250px;
+    left: 229px;
+    bottom: 1650px;
+}
+.BloquesAzules .pantalla3{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    left: 310px;
+    bottom: 1700px;
+}
+.BloquesAzules .power{
+    position: relative;
+    width: 80px;
+    height: 20px;
+    right: 220px;
+    bottom: 1610px;
+}
+.BloquesAzules .cace{
+    position: relative;
+    width: 300px;
+    height: 220px;
+    right: 297px;
+    bottom: 1430px;
+}
+.BloquesAzules .ultimasLetras{
+    position: relative;
+    width: 600px;
+    height: 15px;
+    left: 320px;
+    bottom: 1550px;
+}
