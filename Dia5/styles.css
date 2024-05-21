@@ -1,0 +1,196 @@
+@font-face {
+    font-family: letra;
+    src: url(fuente/Cascadia.ttf);
+}
+.fondoPrincipal{
+    width: 1080px;
+    height: 1920px;
+    background-color: rgb(9, 2, 20);
+    overflow: hidden;
+    margin: 0 auto;
+}
+.fondoPrincipal .bloque1{
+    position: relative;
+    width: 1080px;
+    height: 534px;
+    background-color: rgb(119, 114, 126);
+    bottom: 35px;
+}
+.bloque1 .texto1B1{
+    position: relative;
+    color:rgb(248, 121, 37);
+    font-size:33px;
+    font-family: "letra";
+    left: 80px;
+    top: 15px;
+}
+.bloque1 .Home{
+    position: relative;
+    color:white;
+    font-size:16px;
+    font-family: "letra";
+    left: 665px;
+    bottom: 645px;
+    text-decoration: none;
+}
+.bloque1 .About{
+    position: relative;
+    color:white;
+    font-size:16px;
+    font-family: "letra";
+    left: 685px;
+    bottom: 645px;
+    text-decoration: none;
+}
+.bloque1 .Menu{
+    position: relative;
+    color:white;
+    font-size:16px;
+    font-family: "letra";
+    left: 700px;
+    bottom: 645px;
+    text-decoration: none;
+}
+.bloque1 .Service{
+    position: relative;
+    color:white;
+    font-size:16px;
+    font-family: "letra";
+    left: 725px;
+    bottom: 645px;
+    text-decoration: none;
+}
+.bloque1 .Contact{
+    position: relative;
+    color:white;
+    font-size:16px;
+    font-family: "letra";
+    left: 745px;
+    bottom: 645px;
+    text-decoration: none;
+}
+.bloque1 .texto2B1{
+    position: relative;
+    color:rgb(248, 121, 37);
+    font-size:60px;
+    font-family: "letra";
+    left: 160px;
+    top: 65px;
+}
+.bloque1 .imagen1{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    left: 350px;
+    bottom: 250px;
+}
+.bloque1 .texto3B1{
+    position: relative;
+    color:white;
+    font-size:25px;
+    font-family: "letra";
+    left: 162px;
+    top: 10px;
+}
+.bloque1 .texto4B1{
+    position: relative;
+    color:white;
+    font-size:25px;
+    font-family: "letra";
+    left: 162px;
+    bottom: 18px;
+}
+.bloque1 .cuadroNaranja{
+    position: relative;
+    width: 153px;
+    height: 38px;
+    background-color: rgb(248, 121, 37);
+    left: 162px;
+    bottom: 397px;
+}
+.bloque1 .cuadroNaranja .textoCNaran{
+    position: relative;
+    color:white;
+    font-size:19px;
+    font-family: "letra";
+    left: 9px;
+    top: 4px;
+}
+.fondoPrincipal .bloque2{
+    position: relative;
+    width: 1080px;
+    height: 590px;
+    background-color: rgb(154, 220, 202);
+    bottom: 60px;
+}
+.bloque2 .texto1B2{
+    position: relative;
+    color: rgb(248, 121, 37);
+    font-size:20px;
+    font-family: "letra";
+    left: 600px;
+    top: 170px;
+}
+.bloque2 .texto2B2{
+    position: relative;
+    color: white;
+    font-size:40px;
+    font-family: "letra";
+    left: 600px;
+    top:125px;
+}
+.bloque2 .texto3B2{
+    position: relative;
+    color: white;
+    font-size:40px;
+    font-family: "letra";
+    left: 595px;
+    top: 75px;
+}
+.bloque2 .texto4B2{
+    position: relative;
+    color: white;
+    font-size:20px;
+    font-family: "letra";
+    left: 596px;
+    bottom: -40px;
+}
+.bloque2 .texto5B2{
+    position: relative;
+    color: white;
+    font-size:20px;
+    font-family: "letra";
+    left: 597px;
+    bottom: -20px;
+}
+.bloque2 .texto6B2{
+    position: relative;
+    color: white;
+    font-size:20px;
+    font-family: "letra";
+    left: 595px;
+    bottom: -1px;
+}
+.bloque2 .imagen2{
+    position: relative;
+    width: 360px;
+    height: 360px;
+    left: 160px;
+    bottom: 260px;
+}
+.bloque2 .cuadroNaranja2{
+    position: relative;
+    width: 153px;
+    height: 38px;
+    background-color: rgb(248, 121, 37);
+    left: 598px;
+    bottom: 380px;
+}
+.bloque2 .cuadroNaranja2 .textoCNaran2{
+    position: relative;
+    color:white;
+    font-size:20px;
+    font-family: "letra";
+    left: 25px;
+    bottom: -3px;
+}
