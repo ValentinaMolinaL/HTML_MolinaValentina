@@ -9,7 +9,7 @@
 .fondoPrinc1{
     position: relative;
     width: 1000px;
-    height: 1100px;
+    height: 776px;
     background-color: rgb(198, 101, 101);
     left: 125px;
     top:60px;
@@ -17,7 +17,7 @@
 .fondoPrinc1 .imagenFondo1{
     position: relative;
     width: 1000px;
-    height: 968px;
+    height: 760px;
     left: 0px;
     top: 14px;
 }
@@ -80,9 +80,9 @@
 .fondoPrinc1 .cuadroGBlan2{
     position: absolute;
     width: 870px;
-    height: 923px;
+    height: 720px;
     left: 70px;
-    bottom:150px;
+    bottom:30px;
     background-color:white;
     border-radius: 30px;
 }
@@ -102,7 +102,7 @@
 }
 .fondoPrinc1 .texto1CF{
     position: relative;
-    left: 355px;
+    left: 350px;
     top:100px;
     font-size: 16px;
     color: black;
@@ -110,7 +110,7 @@
 }
 .fondoPrinc1 .texto2CF{
     position: relative;
-    left: 355px;
+    left: 220px;
     top:95px;
     font-size: 16px;
     color: black;
@@ -118,7 +118,7 @@
 }
 .fondoPrinc1 .texto3CF{
     position: relative;
-    right: 60px;
+    right: -7px;
     top: 90px;
     font-size: 13px;
     font-family: letraLight;
@@ -126,13 +126,73 @@
 }
 .fondoPrinc1 .imagenchulito1{
     position: relative;
-    left: 100px;
+    left: 297px;
     top: 100px;
+}
+.fondoPrinc1 .textoRequisito1{
+    position: relative;
+    left: 310px;
+    top:72px;
+    font-size: 13px;
+    color: black;
+    font-family: letraLight;
+}
+.fondoPrinc1 .imagenchulito2{
+    position: relative;
+    left: 330px;
+    top: 59px;
+}
+.fondoPrinc1 .textoRequisito2{
+    position: relative;
+    left: 342px;
+    top:32px;
+    font-size: 13px;
+    color: black;
+    font-family: letraLight;
+}
+.fondoPrinc1 .imagenchulito3{
+    position: relative;
+    left: 140px;
+    top: 19px;
+}
+.fondoPrinc1 .textoRequisito3{
+    position: relative;
+    left: 150px;
+    bottom:10px;
+    font-size: 13px;
+    color: black;
+    font-family: letraLight;
+}
+.fondoPrinc1 .imagenchulito4{
+    position: relative;
+    left: 209px;
+    bottom:20px;
+}
+.fondoPrinc1 .textoRequisito4{
+    position: relative;
+    left: 220px;
+    bottom:49px;
+    font-size: 13px;
+    color: black;
+    font-family: letraLight;
+}
+.fondoPrinc1 .imagenchulito5{
+    position: relative;
+    left: 109px;
+    bottom: 61px;
+}
+.fondoPrinc1 .textoRequisito5{
+    position: relative;
+    left: 120px;
+    bottom:89px;
+    font-size: 13px;
+    color: black;
+    font-family: letraLight;
 }
 .calendario label{
     position: relative;
     left: 196px;
-    top: 10px;
+    bottom: 80px;
     display: block;
     font-size: 13px;
     font-family: letraRegular;
@@ -140,7 +200,7 @@
 .calendario input{
     position: relative;
     left: 196px;
-    bottom: -10px;
+    bottom: 70px;
     width: 460px;
     height: 27px;
     display: block;
@@ -148,28 +208,28 @@
 .cuadroGBlan2 .VerRobot{
     position: relative;
     left: 289px;
-    top: 40px;
+    bottom: 60px;
     width: 300px;
     height: 80px;
 }
 .cuadroGBlan2 .texto3CB2{
     position: relative;
-    left: 240px;
-    top: 40px;
+    left: 280px;
+    bottom: 60px;
     font-size: 8.2px;
 }
 .cuadroGBlan2 .CuadroAzul1Con2{
     position: relative;
     width: 107px;
     height: 35px;
-    left:380px;
-    top: 50px;
+    left:390px;
+    bottom: 50px;
     background-color: rgb(47, 148, 236);
     border-radius: 20px;
 }
 .cuadroGBlan2 a{
     position: relative;
-    left: 22px;
+    left: 35px;
     top:6px;
     font-size: 17px;
     color: white;
@@ -182,7 +242,7 @@
     height: 120px;
     background-color: #3669c9;
     right: 70px;
-    bottom:197px;
+    bottom:-5px;
 }
 .barraA2 .emojiUbi{
     position: relative;

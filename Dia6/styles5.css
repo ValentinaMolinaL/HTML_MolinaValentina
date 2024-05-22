@@ -9,7 +9,7 @@
 .fondoPrinc1{
     position: relative;
     width: 1000px;
-    height: 1100px;
+    height: 800px;
     background-color: rgb(198, 101, 101);
     left: 125px;
     top:60px;
@@ -19,7 +19,7 @@
     width: 1000px;
     height: 968px;
     left: 0px;
-    top: 14px;
+    bottom: 280px;
 }
 .fondoPrinc1 .barraA1{
     position: fixed;
@@ -80,7 +80,7 @@
 .fondoPrinc1 .cuadroGBlan2{
     position: absolute;
     width: 870px;
-    height: 923px;
+    height: 623px;
     left: 70px;
     bottom:150px;
     background-color:white;
@@ -95,18 +95,11 @@
 }
 .cuadroGBlan2 .texto1CB2{
     position: relative;
-    left: 230px;
+    left: -10px;
     top:30px;
     font-size: 16px;
     color: black;
-    font-family: letraRegular;
-}
-.cuadroGBlan2 .texto2CB2{
-    position: relative;
-    left: 250px;
-    top: 19px;
-    font-size: 16px;
-    color: black;
+    text-align: center;
     font-family: letraRegular;
 }
 .cuadroGBlan2 .logoMuisca{
@@ -163,114 +156,13 @@
     font-family: letraRegular;
     text-decoration: none;
 }
-.cuadroGBlan2 .texto4CB2{
-    position: relative;
-    left: 120px;
-    top: 60px;
-    font-size: 23px;
-    font-family: letraRegular;
-}
-.cuadroGBlan2 .tramiteRut{
-    position: relative;
-    left: 50px;
-    top: 70px;
-    width: 400px;
-    height: 300px;
-    background-color: white;
-}
-.tramiteRut .imagenRut{
-    position: relative;
-    left: 180px;
-    top: 5px;
-    width: 50px;
-    height: 60px;
-}
-.tramiteRut .texto1CT{
-    position: relative;
-    left: 155px;
-    bottom: 10px;
-    font-size: 23px;
-    font-family: letraRegular;
-}
-.tramiteRut .texto2CT{
-    position: relative;
-    left: 2px;
-    bottom: 10px;
-    font-size: 14.2px;
-    font-family: letraRegular;
-    text-align: center;
-}
-.tramiteRut .CuadroAzul1Tra1{
-    position: relative;
-    width: 107px;
-    height: 35px;
-    left:140px;
-    top: 0px;
-    background-color: rgb(47, 148, 236);
-    border-radius: 10px;
-}
-.CuadroAzul1Tra1 .textoCTra{
-    position: relative;
-    left: 22px;
-    top:6px;
-    font-size: 17px;
-    color: white;
-    font-family: letraRegular;
-}
-.cuadroGBlan2 .TramiteFirE{
-    position: relative;
-    left: 450px;
-    bottom: 230px;
-    width: 400px;
-    height: 300px;
-    background-color:white;
-}
-.TramiteFirE .imagenFir{
-    position: relative;
-    left: 150px;
-    top: 5px;
-    width: 70px;
-    height: 60px;
-}
-.TramiteFirE .texto1CF{
-    position: relative;
-    left: 70px;
-    bottom: 10px;
-    font-size: 23px;
-    font-family: letraRegular;
-}
-.TramiteFirE .texto2CF{
-    position: relative;
-    right: 10px;
-    bottom: 10px;
-    font-size: 14.2px;
-    font-family: letraRegular;
-    text-align: center;
-}
-.TramiteFirE .CuadroAzul1Fir1{
-    position: relative;
-    width: 107px;
-    height: 35px;
-    left:140px;
-    top: 0px;
-    background-color: rgb(47, 148, 236);
-    border-radius: 10px;
-}
-.CuadroAzul1Fir1 .textoCFir{
-    position: relative;
-    left: 22px;
-    top:6px;
-    font-size: 17px;
-    color: white;
-    font-family: letraRegular;
-}
 .fondoPrinc1 .barraA2{
     position: relative;
     width: 1000px;
     height: 120px;
     background-color: #3669c9;
     right: 70px;
-    bottom:197px;
+    top:113px;
 }
 .barraA2 .emojiUbi{
     position: relative;
