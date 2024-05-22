@@ -1,0 +1,189 @@
+@font-face {
+    font-family: letraRegular;
+    src: url(fuentes/MYRIADPRO-REGULAR.OTF);
+}
+@font-face {
+    font-family: letraLight;
+    src: url(fuentes/MyriadPro-Light.otf);
+}
+.fondoPrinc1{
+    position: relative;
+    width: 1000px;
+    height: 650px;
+    background-color: rgb(198, 101, 101);
+    left: 125px;
+    top:60px;
+} 
+.fondoPrinc1 .imagenFondo1{
+    position: relative;
+    width: 1000px;
+    height: 580px;
+    left: 0px;
+    top: 14px;
+}
+.fondoPrinc1 .barraA1{
+    position: fixed;
+    width: 1000px;
+    height: 100px;
+    background-color: #3669c9;
+    left: 133px;
+    bottom:486px;
+}
+.barraA1 .inicio{
+    position: relative;
+    left: 150px;
+    top: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: letraRegular;
+}
+.barraA1 .tramites{
+    position: relative;
+    left: 265px;
+    bottom: 24px;
+    color: white;
+    font-size: 20px;
+    font-family: letraRegular;
+}
+.barraA1 .contacto{
+    position: relative;
+    left: 670px;
+    bottom: 69px;
+    color: white;
+    font-size: 20px;
+    font-family: letraRegular;
+}
+.barraA1 .cuadroPBlan1{
+    position: relative;
+    width: 120px;
+    height: 35px;
+    left:800px;
+    bottom: 185px;
+    background-color: white;
+    border-radius: 20px;
+}
+.barraA1 .consulta{
+    position: relative;
+    left: 22px;
+    top:6px;
+    font-size: 20px;
+    color: black;
+    font-family: letraRegular;
+}
+.barraA1 .escudoColombia{
+    position: relative;
+    width:210px;
+    height:45px;
+    left:400px;
+    bottom:120px;
+}
+.fondoPrinc1 .cuadroGBlan2{
+    position: absolute;
+    width: 870px;
+    height: 500px;
+    left: 70px;
+    bottom:110px;
+    background-color:white;
+    border-radius: 30px;
+}
+.fondoPrinc1 .cuadroGBlan2 .logoDian{
+    position: relative;
+    width: 190px;
+    height: 40px;
+    left: 340px;
+    bottom: 30px;
+}
+.cuadroGBlan2 .chulito{
+    position: relative;
+    left: 189px;
+    top: 90px;
+    width: 100px;
+    height: 100px;
+}
+.cuadroGBlan2 .SolC{
+    position: relative;
+    left: 300px;
+    top:70px;
+    font-size: 30px;
+    color: black;
+    font-family: letraRegular;
+}
+.cuadroGBlan2 .texto1CB{
+    position: relative;
+    left: 0px;
+    top:50px;
+    font-size: 20px;
+    color: black;
+    font-family: letraRegular;
+    text-align: center;
+}
+.cuadroGBlan2 .logoMuisca{
+    position: relative;
+    width: 180px;
+    height: 60px;
+    left: 50px;
+    top: 270px;
+}
+.cuadroGBlan2 .cuadroVolIni{
+    position: relative;
+    width: 190px;
+    height: 40px;
+    left:350px;
+    top: 100px;
+    background-color: rgb(47, 148, 236);
+    border-radius: 10px;
+}
+.cuadroGBlan2 a{
+    position: relative;
+    left: 10px;
+    top: 9px;
+    font-size: 16px;
+    font-family: letraRegular;
+    color: white;
+    text-decoration: none;
+}
+.fondoPrinc1 .barraA2{
+    position: relative;
+    width: 1000px;
+    height: 120px;
+    background-color: #3669c9;
+    right: 70px;
+    top:239px;
+}
+.barraA2 .emojiUbi{
+    position: relative;
+    left: 230px;
+    bottom: 10px;
+    width: 15px;
+    height: 50px;
+}
+.barraA2 .direccion{
+    position: relative;
+    right: 260px;
+    bottom: 25px;
+    font-size: 13px;
+    font-family: letraLight;
+    text-align: center;
+}
+.barraA2 .emojiTel{
+    position: relative;
+    left: 730px;
+    bottom: 10px;
+    width: 15px;
+    height: 50px;
+}
+.barraA2 .contacto{
+    position: relative;
+    left: 260px;
+    bottom: 100px;
+    font-size: 13px;
+    font-family: letraLight;
+    text-align: center;
+}
+.barraA2 .GOVCO{
+    position: relative;
+    left: 410px;
+    bottom: 170px;
+    width:200px;
+    height: 50px;
+}
