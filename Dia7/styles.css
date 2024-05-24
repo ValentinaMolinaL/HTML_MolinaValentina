@@ -1,0 +1,294 @@
+@font-face {
+    font-family: letraGrande1;
+    src: url(Ember/AmazonEmber_Bd.ttf);
+}
+@font-face {
+    font-family: cuadroBlanco1;
+    src: url(Ember/AmazonEmber_Lt.ttf);
+}
+@font-face {
+    font-family: letraPequeña1;
+    src: url(Ember/AmazonEmber_Lt.ttf);
+}
+@font-face {
+    font-family: letraBAzul2;
+    src: url(Ember/AmazonEmber_Bd.ttf);
+}
+body{
+    background-color: black
+    
+}
+.bloque1 .fondoB1{
+    position: relative;
+    width: 100%;
+}
+.bloque1 .logoB1{
+    position: relative;
+    width: 400px;
+    height: 220px;
+    left: 426px;
+    bottom: 560px;
+
+}
+.bloque1 .textoB1{
+    position: relative;
+    left: 245px;
+    bottom: 640px;
+    font-size: 40px;
+    font-family: letraGrande1;
+    color: white;
+
+}
+.bloque1 .textoB2{
+    position: relative;
+    left: 300px;
+    bottom: 670px;
+    font-size: 19.7px;
+    color: white;
+    font-family: letraPequeña1;
+}
+.bloque1 .textoB3{
+    position: relative;
+    left: 248px;
+    bottom: 690px;
+    font-size: 19.7px;
+    color: white;
+    font-family: letraPequeña1;
+}
+.bloque1 .textoB4{
+    position: relative;
+    left: 603px;
+    bottom: 710px;
+    font-size: 20px;
+    color: white;
+    font-family: letraPequeña1;
+    font-size: 19.7px;
+}
+.bloque1 .cuadroBlanco1{
+    position: relative;
+    width: 300px;
+    height: 70px;
+    left: 470px;
+    bottom: 700px;
+}
+.bloque1 .LetraCBlanco1{
+    position: relative;
+    left: 510px;
+    bottom: 780px;
+    font-size: 25px;
+    font-family: cuadroBlanco1;
+    color: black;
+}
+.bloque1 .cuadroBlanco2{
+    position: relative;
+    width: 130px;
+    height: 36px;
+    left: 1104px;
+    bottom: 1327px;
+}
+.bloque1 .LetraCBlanco2{
+    position: relative;
+    left: 1146px;
+    bottom: 1379px;
+    font-size: 18px;
+    font-family: cuadroBlanco1;
+    color: black;
+}
+.bloque1 .lupa{
+    position: relative;
+    width: 23px;
+    height: 23px;
+    left: 41px;
+    bottom: 1421px;
+}
+.BloquesAzules .Azul1{
+    position: relative;
+    width: 1215px;
+    left: 15px;
+    height: 450px;
+    bottom: 770px;
+}
+.BloquesAzules .Azul2{
+    position: relative;
+    width: 1215px;
+    left: 15px;
+    height: 450px;
+    bottom: 740px;
+}
+.BloquesAzules .letraAzul2{
+    position: relative;
+    left: 50px;
+    bottom: 1200px;
+    font-size:42px;
+    font-family: letraBAzul2;
+    color: white;
+}
+.BloquesAzules .foto1{
+    position: relative;
+    width: 118px;
+    height: 180px;
+    left: 295px;
+    bottom: 1210px;
+}
+.BloquesAzules .foto2{
+    position: relative;
+    width: 118px;
+    height: 180px;
+    left: 300px;
+    bottom: 1210px;
+}
+.BloquesAzules .foto3{
+    position: relative;
+    width: 118px;
+    height: 180px;
+    left: 305px;
+    bottom: 1210px;
+}
+.BloquesAzules .foto4{
+    position: relative;
+    width: 118px;
+    height: 180px;
+    left: 310px;
+    bottom: 1210px;
+}
+.BloquesAzules .foto5{
+    position: relative;
+    width: 118px;
+    height: 180px;
+    left: 315px;
+    bottom: 1210px;
+}
+.BloquesAzules .texto1Azul2{
+    position: relative;
+    left: 250px;
+    bottom: 1210px;
+    font-size:33px;
+    font-family: cuadroBlanco1;
+    color: white;
+}
+.BloquesAzules .texto2Azul2{
+    position: relative;
+    left: 110px;
+    bottom: 1250px;
+    font-size: 33px;
+    font-family: cuadroBlanco1;
+    color: white;
+}
+.BloquesAzules .Azul3{
+    position: relative;
+    width: 1215px;
+    left: 15px;
+    height: 450px;
+    bottom: 1212px;
+}
+.BloquesAzules .texto1Azul3{
+    position: relative;
+    left: 350px;
+    bottom: 1670px;
+    font-size:42px;
+    font-family: letraBAzul2;
+    color: white;
+}
+.BloquesAzules .emoji{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    left: 550px;
+    bottom: 1680px;
+}
+.BloquesAzules .texto2Azul3{
+    position: relative;
+    left: 120px;
+    bottom: 1680px;
+    font-size: 30px;
+    font-family: cuadroBlanco1;
+    color: white;
+}
+.BloquesAzules .texto3Azul3{
+    position: relative;
+    left: 569px;
+    bottom: 1710px;
+    font-size: 30px;
+    font-family: cuadroBlanco1;
+    color: white;
+}
+.BloquesAzules .letra1final{
+    position: relative;
+    left: 200px;
+    bottom: 1680px;
+    font-size: 100px;
+    font-family: cuadroBlanco1;
+    color: white;
+}
+.BloquesAzules .letra2final{
+    position: relative;
+    left: 28px;
+    bottom: 1750px;
+    font-size: 35px;
+    font-family: cuadroBlanco1;
+    color: white;
+}
+.BloquesAzules .letra3final{
+    position: relative;
+    left: 430px;
+    bottom: 1790px;
+    font-size: 35px;
+    font-family: cuadroBlanco1;
+    color: white;
+}
+.BloquesAzules .fechaD{
+    position: relative;
+    left: 1130px;
+    bottom: 1780px;
+    width: 20px;
+    height: 20px;
+}
+.BloquesAzules .fechaI{
+    position: relative;
+    left:98px;
+    bottom: 1780px;
+    width: 20px;
+    height: 20px;
+}
+.BloquesAzules .pantalla1{
+    position: relative;
+    width: 210px;
+    height: 150px;
+    left: 120px;
+    bottom: 1700px;
+}
+.BloquesAzules .pantalla2{
+    position: relative;
+    width: 270px;
+    height: 250px;
+    left: 229px;
+    bottom: 1650px;
+}
+.BloquesAzules .pantalla3{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    left: 310px;
+    bottom: 1700px;
+}
+.BloquesAzules .power{
+    position: relative;
+    width: 80px;
+    height: 20px;
+    right: 220px;
+    bottom: 1610px;
+}
+.BloquesAzules .cace{
+    position: relative;
+    width: 300px;
+    height: 220px;
+    right: 297px;
+    bottom: 1430px;
+}
+.BloquesAzules .ultimasLetras{
+    position: relative;
+    width: 600px;
+    height: 15px;
+    left: 320px;
+    bottom: 1550px;
+}
