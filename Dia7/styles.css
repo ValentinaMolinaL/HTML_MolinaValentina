@@ -18,14 +18,20 @@ body{
     background-color: black
     
 }
+.bloque1{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
 .bloque1 .fondoB1{
     position: relative;
-    width: 100%;
+    width: 100.208vw;
+    height: 100vh;
 }
 .bloque1 .logoB1{
     position: relative;
-    width: 400px;
-    height: 220px;
+    width: 20.833vw;    ;
+    height: 22vh;
     left: 426px;
     bottom: 560px;
 
@@ -66,8 +72,8 @@ body{
 }
 .bloque1 .cuadroBlanco1{
     position: relative;
-    width: 300px;
-    height: 70px;
+    width: 15.625vw;
+    height: 7vh;
     left: 470px;
     bottom: 700px;
 }
@@ -81,8 +87,8 @@ body{
 }
 .bloque1 .cuadroBlanco2{
     position: relative;
-    width: 130px;
-    height: 36px;
+    width: 6.771vw;
+    height: 3.6vh;
     left: 1104px;
     bottom: 1327px;
 }
@@ -96,26 +102,34 @@ body{
 }
 .bloque1 .lupa{
     position: relative;
-    width: 23px;
-    height: 23px;
+    width: 1.198vw;
+    height: 2.3vh;
     left: 41px;
     bottom: 1421px;
 }
 .BloquesAzules .Azul1{
-    position: relative;
-    width: 1215px;
-    left: 15px;
-    height: 450px;
-    bottom: 770px;
+
 }
-.BloquesAzules .Azul2{
+.bloqueA2{
+    width: 63.281vw;
+    
+}
+.BloquesAzules .bloqueA2 .Azul2{
     position: relative;
-    width: 1215px;
+    width: 63.281vw;
     left: 15px;
-    height: 450px;
+    height: 45vh;
+    bottom: 170px;
+}
+
+.BloquesAzules .bloqueA2 .Azul2{
+    position: relative;
+    width: 63.281vw;
+    left: 15px;
+    height: 45vh;
     bottom: 740px;
 }
-.BloquesAzules .letraAzul2{
+.BloquesAzules .bloqueA2 .letraAzul2{
     position: relative;
     left: 50px;
     bottom: 1200px;
@@ -123,42 +137,42 @@ body{
     font-family: letraBAzul2;
     color: white;
 }
-.BloquesAzules .foto1{
+.BloquesAzules .bloqueA2 .foto1{
     position: relative;
-    width: 118px;
-    height: 180px;
+    width: 6.146vw;
+    height: 18vh;
     left: 295px;
     bottom: 1210px;
 }
-.BloquesAzules .foto2{
+.BloquesAzules .bloqueA2 .foto2{
     position: relative;
-    width: 118px;
-    height: 180px;
+    width: 6.146vw;
+    height: 18vh;
     left: 300px;
     bottom: 1210px;
 }
-.BloquesAzules .foto3{
+.BloquesAzules .bloqueA2 .foto3{
     position: relative;
-    width: 118px;
-    height: 180px;
+    width: 6.146vw;
+    height: 18vh;
     left: 305px;
     bottom: 1210px;
 }
-.BloquesAzules .foto4{
+.BloquesAzules .bloqueA2 .foto4{
     position: relative;
-    width: 118px;
-    height: 180px;
+    width: 6.146vw;
+    height: 18vh;
     left: 310px;
     bottom: 1210px;
 }
-.BloquesAzules .foto5{
+.BloquesAzules .bloqueA2 .foto5{
     position: relative;
-    width: 118px;
-    height: 180px;
+    width: 6.146vw;
+    height: 18vh;
     left: 315px;
     bottom: 1210px;
 }
-.BloquesAzules .texto1Azul2{
+.BloquesAzules .bloqueA2 .texto1Azul2{
     position: relative;
     left: 250px;
     bottom: 1210px;
@@ -166,7 +180,7 @@ body{
     font-family: cuadroBlanco1;
     color: white;
 }
-.BloquesAzules .texto2Azul2{
+.BloquesAzules .bloqueA2 .texto2Azul2{
     position: relative;
     left: 110px;
     bottom: 1250px;
@@ -174,11 +188,13 @@ body{
     font-family: cuadroBlanco1;
     color: white;
 }
+
+
 .BloquesAzules .Azul3{
     position: relative;
-    width: 1215px;
+    width: 63.281vw;
     left: 15px;
-    height: 450px;
+    height: 45vh;
     bottom: 1212px;
 }
 .BloquesAzules .texto1Azul3{
@@ -191,8 +207,8 @@ body{
 }
 .BloquesAzules .emoji{
     position: relative;
-    width: 140px;
-    height: 140px;
+    width: 7.292vw;
+    height: 14vh;
     left: 550px;
     bottom: 1680px;
 }
@@ -240,55 +256,55 @@ body{
     position: relative;
     left: 1130px;
     bottom: 1780px;
-    width: 20px;
-    height: 20px;
+    width: 1.042vw;
+    height: 2vh;
 }
 .BloquesAzules .fechaI{
     position: relative;
     left:98px;
     bottom: 1780px;
-    width: 20px;
-    height: 20px;
+    width: 1.042vw;
+    height: 2vh;
 }
 .BloquesAzules .pantalla1{
     position: relative;
-    width: 210px;
-    height: 150px;
+    width: 10.938vw;
+    height: 15vh;
     left: 120px;
     bottom: 1700px;
 }
 .BloquesAzules .pantalla2{
     position: relative;
-    width: 270px;
-    height: 250px;
+    width: 14.063vw;
+    height: 25vh;
     left: 229px;
     bottom: 1650px;
 }
 .BloquesAzules .pantalla3{
     position: relative;
-    width: 200px;
-    height: 150px;
+    width: 10.417vw;
+    height: 15vh;
     left: 310px;
     bottom: 1700px;
 }
 .BloquesAzules .power{
     position: relative;
-    width: 80px;
-    height: 20px;
+    width: 4.167vw;
+    height: 2vh;
     right: 220px;
     bottom: 1610px;
 }
 .BloquesAzules .cace{
     position: relative;
-    width: 300px;
-    height: 220px;
+    width: 15.625vw;
+    height: 22vh;
     right: 297px;
     bottom: 1430px;
 }
 .BloquesAzules .ultimasLetras{
     position: relative;
-    width: 600px;
-    height: 15px;
+    width: 31.25vw;
+    height: 1.5vh;
     left: 320px;
     bottom: 1550px;
 }
