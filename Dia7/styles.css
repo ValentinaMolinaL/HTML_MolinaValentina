@@ -1,310 +1,375 @@
 @font-face {
-    font-family: letraGrande1;
-    src: url(Ember/AmazonEmber_Bd.ttf);
+    font-family: "Letra1";
+    src: url("fuente/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/AmazonEmber_Th.ttf");
 }
 @font-face {
-    font-family: cuadroBlanco1;
-    src: url(Ember/AmazonEmber_Lt.ttf);
-}
-@font-face {
-    font-family: letraPequeña1;
-    src: url(Ember/AmazonEmber_Lt.ttf);
-}
-@font-face {
-    font-family: letraBAzul2;
-    src: url(Ember/AmazonEmber_Bd.ttf);
+    font-family: "Letra2";
+    src: url("fuente/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/AmazonEmber_Bd.ttf");
 }
 body{
-    background-color: black
+    width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    position: relative;
+    max-width: 1920px;
+    max-height: 4149px;
+    margin: 0 auto;
+}
+
+.fondo2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    max-width: 100%;
+    opacity: 0.75;
+}
+.logoPrime{ 
+    position: absolute;
+    top: 11.5vw;
+    left: 33vw;
+    max-width: 556px;
+    max-height: 313px;
+    width: 36vw;
+    height: auto;
+}
+.lupita{
+    position: absolute;
+    max-width: 36px;
+    max-height: 36px;
+    top: 2vw;
+    left: 3vw;
+    width: 2.5vw;
+    height: auto;
     
 }
-.bloque1{
-    position: relative;
-    width: 100vw;
-    height: 100vh;
+.login{
+    position: absolute;
+    max-width: 205px;
+    max-height: 54px;
+    top: 1.563vw;
+    left: 88vw;
+    width: 9vw;
+    height: 3vw;
 }
-.bloque1 .fondoB1{
-    position: relative;
-    width: 100.208vw;
-    height: 100vh;
-}
-.bloque1 .logoB1{
-    position: relative;
-    width: 20.833vw;    ;
-    height: 22vh;
-    left: 426px;
-    bottom: 560px;
-
-}
-.bloque1 .textoB1{
-    position: relative;
-    left: 245px;
-    bottom: 640px;
-    font-size: 40px;
-    font-family: letraGrande1;
-    color: white;
-
-}
-.bloque1 .textoB2{
-    position: relative;
-    left: 300px;
-    bottom: 670px;
-    font-size: 19.7px;
-    color: white;
-    font-family: letraPequeña1;
-}
-.bloque1 .textoB3{
-    position: relative;
-    left: 248px;
-    bottom: 690px;
-    font-size: 19.7px;
-    color: white;
-    font-family: letraPequeña1;
-}
-.bloque1 .textoB4{
-    position: relative;
-    left: 603px;
-    bottom: 710px;
-    font-size: 20px;
-    color: white;
-    font-family: letraPequeña1;
-    font-size: 19.7px;
-}
-.bloque1 .cuadroBlanco1{
-    position: relative;
-    width: 15.625vw;
-    height: 7vh;
-    left: 470px;
-    bottom: 700px;
-}
-.bloque1 .LetraCBlanco1{
-    position: relative;
-    left: 510px;
-    bottom: 780px;
-    font-size: 25px;
-    font-family: cuadroBlanco1;
+.plogin{
+    position: absolute;
+    font-family: Letra1;
+    font-size: 1.1vw;
+    text-align: left;
+    left: 3vw;
     color: black;
+    top: -0.4vw;
+    width: 15vw;
+    max-width: 50px;
+    max-height: 50px;
+    opacity: 0.80;
 }
-.bloque1 .cuadroBlanco2{
-    position: relative;
-    width: 6.771vw;
-    height: 3.6vh;
-    left: 1104px;
-    bottom: 1327px;
+.text1{
+    position: absolute;
+    font-family: Letra2;
+    font-weight: bold;
+    text-align: left;
+    font-size: 3vw;
+    color: white;
+    top: 25vw;
+    left: 20vw;
+    width: 74vw;
+    height: auto;
+    max-width: 1151px;
+    max-height: 60px;
+    
 }
-.bloque1 .LetraCBlanco2{
-    position: relative;
-    left: 1146px;
-    bottom: 1379px;
-    font-size: 18px;
-    font-family: cuadroBlanco1;
+.text2{
+    position: absolute;
+    font-family: Letra1;
+    text-align: center;
+    font-size: 1.56vw;
+    line-height: 1.2;
+    color: white;
+    top: 32vw;
+    left: 17vw;
+    width: 65vw;
+    height: auto;
+    max-width: 1160px;
+    max-height: 102px;
+    
+}
+.rect2{
+   position: absolute;
+   top: 42vw;
+   left: 39vw;
+   width: 20vw;
+   height: 5vw;
+   max-width: 458px;
+   max-height: 104px;
+}
+.textrect{
+    position: absolute;
+    font-family: Letra1;
+    font-size: 1.9vw;
+    text-align: left;
     color: black;
-}
-.bloque1 .lupa{
-    position: relative;
-    width: 1.198vw;
-    height: 2.3vh;
-    left: 41px;
-    bottom: 1421px;
-}
-.BloquesAzules .Azul1{
+    top: -0.6vw;
+    left: 2vw;
+    width: 17vw;
+    height: 5vw;
+    max-width: 360px;
+    max-height: 40px;
 
 }
-.bloqueA2{
-    width: 63.281vw;
-    height: 45vh; 
+.caja1 {
+    position: absolute;
+    top: 55vw;
+    left: 3vw;
+    width: 94.4vw;
+    height: 30vw;
+    max-width: 1792px;
+    max-height: 567px;
 }
-.BloquesAzules .bloqueA2 .Azul2{
-    position: relative;
-    width: 63.281vw;
-    left: 15px;
-    height: 45vh;
-    bottom: 170px;
+.caja2 {
+    position: absolute;
+    top: 86vw;
+    left: 3vw;
+    width: 94.4vw;
+    height: 38vw;
+    max-width: 1792px;
+    max-height: 724px;
 }
-
-.BloquesAzules .bloqueA2 .Azul2{
+.caja3 img{
     position: relative;
-    width: 63.281vw;
-    left: 15px;
-    height: 45vh;
-    bottom: 740px;
+    bottom: 5560px;
+    left: 67px;
+    width: 1792px;
+    height: 567px;
 }
-.BloquesAzules .bloqueA2 .letraAzul2{
-    position: relative;
-    left: 50px;
-    bottom: 1200px;
-    font-size:42px;
-    font-family: letraBAzul2;
+.img1{
+    position: absolute;
+    top: 9vw;
+    left: 21.7vw;
+    width: 10vw;
+    height: 16vw;
+    max-width: 181px;
+    max-height: 309px;
+    border: 1px solid #707070;
+}
+.img2{
+    position: absolute;
+    top: 9vw;
+    left: 32.3vw;
+    width: 10vw;
+    height: 16vw;
+    max-width: 181px;
+    max-height: 309px;
+    border: 1px solid #707070;
+}
+.img3{
+    position: absolute;
+    top: 9vw;
+    left: 43vw;
+    width: 10vw;
+    height: 16vw;
+    max-width: 181px;
+    max-height: 309px;
+    border: 1px solid #707070;
+}
+.img4{
+    position: absolute;
+    top: 9vw;
+    left: 53.7vw;
+    width: 10vw;
+    height: 16vw;
+    max-width: 181px;
+    max-height: 309px;
+    border: 1px solid #707070;
+}
+.img5{
+    position: absolute;
+    top: 9vw;
+    left: 64.4vw;
+    width: 10vw;
+    height: 16vw;
+    max-width: 181px;
+    max-height: 309px;
+    border: 1px solid #707070;
+}
+.text5{
+    font-family: Letra2;
+    position: absolute;
+    font-size: 3.1vw;
+    text-align: left;
+    color: white;
+    top: -1vw;
+    left: 3.7vw;
+    width: 90vw;
+    height: 28vw;
+    max-width: 1664px;
+    max-height: 60px;
+}
+.text6{
+    font-family: Letra1;
+    position: absolute;
+    font-size: 2.6vw;
+    text-align: center;
+    color: white;
+    top: 26vw;
+    left: 8vw;
+    width: 88w;
+    height: 30vw;
+    max-width: 1492px;
+    max-height: 110px;
+}
+.caja3{
+    position: absolute;
+    top: 125vw;
+    left: 3vw;
+    width: 94.4vw;
+    height: 30vw;
+    max-width: 1792px;
+    max-height: 567px;
+    border-radius: 1vw;
+}
+.equis{
+    position: absolute;
+    top: 135vw;
+    left: 45vw;
+    width: 10vw;
+    height: 10vw;
+    max-width: 169px;
+    max-height: 169px;
+    z-index: 2;
+}
+.text7{
+    position: absolute;
+    font-family: Letra2;
+    font-size: 3.2vw;
+    text-align: left;
+    color: white;
+    top: 1vw;
+    left: 26vw;
+    height: 28vw;
+    width: 90vw;
+    max-width: 800px;
+    max-height: 60px;
+}
+.text8{
+    position: absolute;
+    font-family: Letra1;
+    font-size: 2vw;
+    text-align: center;
+    top: 20vw;
+    left: 15vw;
+    max-width: 1382px;
+    max-height: 88px;
     color: white;
 }
-.BloquesAzules .bloqueA2 .foto1{
-    position: relative;
-    width: 6.146vw;
-    height: 18vh;
-    left: 295px;
-    bottom: 1210px;
-}
-.BloquesAzules .bloqueA2 .foto2{
-    position: relative;
-    width: 6.146vw;
-    height: 18vh;
-    left: 300px;
-    bottom: 1210px;
-}
-.BloquesAzules .bloqueA2 .foto3{
-    position: relative;
-    width: 6.146vw;
-    height: 18vh;
-    left: 305px;
-    bottom: 1210px;
-}
-.BloquesAzules .bloqueA2 .foto4{
-    position: relative;
-    width: 6.146vw;
-    height: 18vh;
-    left: 310px;
-    bottom: 1210px;
-}
-.BloquesAzules .bloqueA2 .foto5{
-    position: relative;
-    width: 6.146vw;
-    height: 18vh;
-    left: 315px;
-    bottom: 1210px;
-}
-.BloquesAzules .bloqueA2 .texto1Azul2{
-    position: relative;
-    left: 250px;
-    bottom: 1210px;
-    font-size:33px;
-    font-family: cuadroBlanco1;
+.devices{
+    position: absolute;
+    font-family: Letra1;
+    font-size: 6vw;
+    text-align: center;
     color: white;
+    top: 152vw;
+    left: 22vw;
+    width: 58vw;
+    height: 15vw;
+    max-width: 1118px;
+    max-height: 125px;
 }
-.BloquesAzules .bloqueA2 .texto2Azul2{
-    position: relative;
-    left: 110px;
-    bottom: 1250px;
-    font-size: 33px;
-    font-family: cuadroBlanco1;
+.devices2{
+    position: absolute;
+    font-family: Letra1;
+    font-size: 2vw;
+    text-align: center;
     color: white;
+    top: 166vw;
+    left: 8.5vw;
+    width: 85vw;
+    height: auto;
+    max-width: 1544px;
+    max-height: 99px;
 }
-
-
-.BloquesAzules .Azul3{
-    position: relative;
-    width: 63.281vw;
-    left: 15px;
-    height: 45vh;
-    bottom: 1212px;
+.mac{
+    position: absolute;
+    top: 176vw;
+    left: 39vw;
+    width: 25vw;
+    height: 23vw;
+    max-width: 584px;
+    max-height: 534px;
 }
-.BloquesAzules .texto1Azul3{
-    position: relative;
-    left: 350px;
-    bottom: 1670px;
-    font-size:42px;
-    font-family: letraBAzul2;
-    color: white;
+.iphone{
+    position: absolute;
+    top: 181vw;
+    left: 20vw;
+    width: 12.5vw;
+    height: 10vw;
+    max-width: 256px;
+    max-height: 219px;
+    opacity: 0.90;
 }
-.BloquesAzules .emoji{
-    position: relative;
-    width: 7.292vw;
-    height: 14vh;
-    left: 550px;
-    bottom: 1680px;
+.pc{
+    position: absolute;
+    top: 181vw;
+    left: 70vw;
+    width: 12.5vw;
+    height: 10vw;
+    max-width: 271px;
+    max-height: 238px;
 }
-.BloquesAzules .texto2Azul3{
-    position: relative;
-    left: 120px;
-    bottom: 1680px;
-    font-size: 30px;
-    font-family: cuadroBlanco1;
-    color: white;
+.flecha1{
+    position: absolute;
+    top: 184vw;
+    left: 20vw;
+    width: 2vw;
+    height: 3vw;
+    max-width: 19px;
+    max-height: 27px;
 }
-.BloquesAzules .texto3Azul3{
-    position: relative;
-    left: 569px;
-    bottom: 1710px;
-    font-size: 30px;
-    font-family: cuadroBlanco1;
-    color: white;
+.flecha2{
+    position: absolute;
+    top: 184vw;
+    left: 82vw;
+    width: 2vw;
+    height: 3vw;
+    max-width: 19px;
+    max-height: 27px;
+    transform: rotate(-179deg);
 }
-.BloquesAzules .letra1final{
-    position: relative;
-    left: 200px;
-    bottom: 1680px;
-    font-size: 100px;
-    font-family: cuadroBlanco1;
-    color: white;
+.logo1{
+    position: absolute;
+    top: 199vw;
+    left: 45vw;
+    width: 20vw;
+    height: 12vw;
+    max-width: 430px;
+    max-height: 241px;
+    opacity: 0.50;
 }
-.BloquesAzules .letra2final{
-    position: relative;
-    left: 28px;
-    bottom: 1750px;
-    font-size: 35px;
-    font-family: cuadroBlanco1;
-    color: white;
+.logo2{
+    position: absolute;
+    top: 200vw;
+    left: 35vw;
+    width: 25vw;
+    height: 3vw;
+    max-width: 500px;
+    max-height: 13px;
+    opacity: 0.50;
 }
-.BloquesAzules .letra3final{
-    position: relative;
-    left: 430px;
-    bottom: 1790px;
-    font-size: 35px;
-    font-family: cuadroBlanco1;
-    color: white;
-}
-.BloquesAzules .fechaD{
-    position: relative;
-    left: 1130px;
-    bottom: 1780px;
-    width: 1.042vw;
-    height: 2vh;
-}
-.BloquesAzules .fechaI{
-    position: relative;
-    left:98px;
-    bottom: 1780px;
-    width: 1.042vw;
-    height: 2vh;
-}
-.BloquesAzules .pantalla1{
-    position: relative;
-    width: 10.938vw;
-    height: 15vh;
-    left: 120px;
-    bottom: 1700px;
-}
-.BloquesAzules .pantalla2{
-    position: relative;
-    width: 14.063vw;
-    height: 25vh;
-    left: 229px;
-    bottom: 1650px;
-}
-.BloquesAzules .pantalla3{
-    position: relative;
-    width: 10.417vw;
-    height: 15vh;
-    left: 310px;
-    bottom: 1700px;
-}
-.BloquesAzules .power{
-    position: relative;
-    width: 4.167vw;
-    height: 2vh;
-    right: 220px;
-    bottom: 1610px;
-}
-.BloquesAzules .cace{
-    position: relative;
-    width: 15.625vw;
-    height: 22vh;
-    right: 297px;
-    bottom: 1430px;
-}
-.BloquesAzules .ultimasLetras{
-    position: relative;
-    width: 31.25vw;
-    height: 1.5vh;
-    left: 320px;
-    bottom: 1550px;
+.final{
+    position: absolute;
+    top: 205vw;
+    left: 35vw;
+    width: 35vw;
+    height: 6vw;
+    max-width: 600px;
+    max-height: 55px;
+    opacity: 0.50;
 }
