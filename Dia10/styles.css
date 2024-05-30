@@ -1,0 +1,19 @@
+.contenedor{
+    width: 98vw;
+    height: 97.3vh;
+    background-color: black;
+    overflow: hidden;
+}
+.contenedor .Menu{
+    width: 20vw;
+    height: 97.3vh;
+    background-color: rgb(197, 14, 14);
+}
+.contenedor .Dashboard{
+    position: relative;
+    left: 255px;
+    bottom: 570px;
+    width: 78.3vw;
+    height: 97.3vh;
+    background-color: rgb(206, 178, 178);
+}
