@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+    background-image: url(imagenes/paisaje.jpeg);
+    background-size: 100%;
+    position: absolute;
+    background-repeat: no-repeat;      
+}
+
+.nube{
+    position: relative;
+    width: 25%;
+    bottom: 1vh;
+    z-index: 2;
+    animation-name: nube;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;    
+}
+
+@keyframes nube {
+    0%{
+        left: 100%;
+    }
+    50%{
+        left: 37%;
+    }
+    100%{
+        left: -90%;
+    }
+}
+
+.lluvia{
+    position: relative;
+    width: 20%;
+    top: 70vh;
+    animation-name: lluvia;
+    animation-duration: 4s;
+}
+
+@keyframes lluvia {
+    100%{
+        top: 27%;
+    }
+    0%{
+        top: 10%;
+    }
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+.luna{
+    position: relative;
+    width: 15%;
+    height: auto;
+    bottom: 15vw;
+    left: -8vw;
+    animation: luna 10s infinite;
+}
+
+@keyframes luna{
+    0%{
+        opacity: 0.8;
+    }
+    50%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 0.8;
+    }
+}
+
+.gato{
+    
+    position: relative;
+    width: 15%;
+    height: auto;
+    bottom: 350px;
+    animation: gato 9s infinite;
+    animation-iteration-count: infinite;    
+
+}
+
+@keyframes gato{
+    60%{
+        top: 90%;
+    }
+    100%{
+        top: 55%;
+    }
+}
+
+.inicio{
+    display: flex;
+    text-align: center;
+    font-size: 5vw;
+    margin-top: -9;
+    color: white;
+    font-weight: bold;
+    animation-duration: 8s;
+    animation-delay: 7s;
+    overflow: hidden;
+}
+
+.inicio .inicio3{
+    animation-name: inicio3;
+    animation-duration: 5s;
+    animation-delay: 10s;
+    position: relative;
+    top: 20vh;
+    margin-left: 300%;
+}
+
+.inicio .inicio2{
+    animation-name: inicio2;
+    animation-duration: 3s;
+    animation-delay: 10.5s;
+    position: relative;
+    top: 7vh;
+    margin-left: 300%;
+}
+
+.inicio .inicio1{
+    animation-name: inicio1;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    position: relative;
+    bottom: 6vh;
+    margin-left: 300%;
+
+}
+.inicio .accion{
+    animation-name: accion;
+    animation-duration: 3s;
+    animation-delay: 18s;
+    position: relative;
+    bottom: 19vh;
+    margin-left: 300%;
+}
+
+@keyframes inicio3{
+    0%{
+        width: 300%;
+    }
+    80%{
+        opacity: 100%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    100%{
+        opacity: 0%;
+        margin-left: -300%;
+    }
+    
+}
+@keyframes inicio2{
+    0%{
+        width: 300%;
+    }
+    80%{
+        opacity: 100%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    100%{
+        opacity: 0%;
+        margin-left: -300%;
+    }
+    
+}
+@keyframes inicio1{
+    0%{
+        width: 300%;
+    }
+    80%{
+        opacity: 100%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    100%{
+        opacity: 0%;
+        margin-left: -300%;
+    }
+    
+}
+@keyframes accion{
+    0%{
+        width: 300%;
+    }
+    80%{
+        opacity: 100%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    100%{
+        opacity: 0%;
+        margin-right: 100% ;
+        margin-left: -300%;
+    }
+}
