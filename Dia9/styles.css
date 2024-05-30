@@ -6,9 +6,10 @@
 
 body{
     width: 100%;
-    height: 100%;
+    height: 40%;
     display: flex;
     justify-content: center;
+    background-color: white;
 }
 
 .contenedor{
@@ -17,22 +18,24 @@ body{
     background-image: url(imagenes/paisaje.jpeg);
     background-size: 100%;
     position: absolute;
-    background-repeat: no-repeat;      
+    background-repeat: no-repeat; 
+    overflow: hidden;     
 }
 
 .nube{
     position: relative;
     width: 25%;
     bottom: 1vh;
+    left: 1250px;
     z-index: 2;
     animation-name: nube;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;    
+    animation-duration:10s;
+    animation-delay: 4s;
 }
 
 @keyframes nube {
     0%{
-        left: 100%;
+        left: 160%;
     }
     50%{
         left: 37%;
@@ -43,176 +46,160 @@ body{
 }
 
 .lluvia{
-    position: relative;
+    position: absolute;
     width: 20%;
-    top: 70vh;
+    height: 70%;
+    bottom: 18px;
     animation-name: lluvia;
-    animation-duration: 4s;
+    animation-duration: 1s;
+    animation-delay: 8s;
+    opacity: 0;    
 }
 
 @keyframes lluvia {
-    100%{
-        top: 27%;
+    100%{   
+        opacity: 0; transform: translateY(0vh);
+     }
+    90%{
+        opacity: 1;
     }
     0%{
-        top: 10%;
-    }
-    0%{
-        opacity: 0;
-    }
-    50%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 100;
+        opacity: 0; transform: translateY(-10vh);
     }
 }
-.luna{
+.sol{
     position: relative;
     width: 15%;
     height: auto;
     bottom: 15vw;
     left: -8vw;
-    animation: luna 10s infinite;
+    animation: sol 10s infinite;
 }
 
-@keyframes luna{
+@keyframes sol{
     0%{
-        opacity: 0.8;
-    }
-    50%{
         opacity: 0.3;
     }
+    50%{
+        opacity: 10;
+    }
     100%{
-        opacity: 0.8;
+        opacity: 0.3;
     }
 }
 
 .gato{
     
-    position: relative;
+    position: absolute;
     width: 15%;
     height: auto;
-    bottom: 350px;
-    animation: gato 9s infinite;
-    animation-iteration-count: infinite;    
-
+    bottom: -40px;
+    animation-name: gato;
+    animation-duration: 3s;
+    animation-delay: 10s;
+    opacity: 0;
 }
-
 @keyframes gato{
-    60%{
-        top: 90%;
+    0%{
+        opacity: 0;
     }
     100%{
-        top: 55%;
+        opacity: 1;
     }
 }
-
-.inicio{
-    display: flex;
-    text-align: center;
-    font-size: 5vw;
-    margin-top: -9;
-    color: white;
-    font-weight: bold;
-    animation-duration: 8s;
-    animation-delay: 7s;
-    overflow: hidden;
-}
-
 .inicio .inicio3{
+    position: absolute;
+    width: 20vw;
+    height: 20vh;
+    left: 600px;
+    bottom: 50px;
     animation-name: inicio3;
-    animation-duration: 5s;
-    animation-delay: 10s;
-    position: relative;
-    top: 20vh;
-    margin-left: 300%;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    opacity: 0;
 }
 
 .inicio .inicio2{
+    position: absolute;
+    width: 20vw;
+    height: 20vh;
+    left: 600px;
+    bottom: 50px;
     animation-name: inicio2;
-    animation-duration: 3s;
-    animation-delay: 10.5s;
-    position: relative;
-    top: 7vh;
-    margin-left: 300%;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    opacity: 0;
+
 }
 
 .inicio .inicio1{
+    position: absolute;
+    width: 20vw;
+    height: 20vh;
+    left: 600px;
+    bottom: 50px;
     animation-name: inicio1;
-    animation-duration: 3s;
-    animation-delay: 15s;
-    position: relative;
-    bottom: 6vh;
-    margin-left: 300%;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    opacity: 0;
 
 }
 .inicio .accion{
+    position: absolute;
+    width: 20vw;
+    height: 20vh;
+    left: 600px;
+    bottom: 50px;
     animation-name: accion;
-    animation-duration: 3s;
-    animation-delay: 18s;
-    position: relative;
-    bottom: 19vh;
-    margin-left: 300%;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    opacity: 0;
 }
 
 @keyframes inicio3{
-    0%{
-        width: 300%;
-    }
-    80%{
-        opacity: 100%;
-        margin-left: 0%;
-        width: 100%;
+    0%{   
+        opacity: 0; transform: translateY(0vh);
+     }
+    90%{
+        opacity: 1;
     }
     100%{
-        opacity: 0%;
-        margin-left: -300%;
+        opacity: 0; transform: translateY(-10vh);
     }
     
 }
 @keyframes inicio2{
-    0%{
-        width: 300%;
-    }
-    80%{
-        opacity: 100%;
-        margin-left: 0%;
-        width: 100%;
+    0%{   
+        opacity: 0; transform: translateY(0vh);
+     }
+    90%{
+        opacity: 1;
     }
     100%{
-        opacity: 0%;
-        margin-left: -300%;
+        opacity: 0; transform: translateY(-10vh);
     }
     
 }
 @keyframes inicio1{
-    0%{
-        width: 300%;
-    }
-    80%{
-        opacity: 100%;
-        margin-left: 0%;
-        width: 100%;
+    0%{   
+        opacity: 0; transform: translateY(0vh);
+     }
+    90%{
+        opacity: 1;
     }
     100%{
-        opacity: 0%;
-        margin-left: -300%;
+        opacity: 0; transform: translateY(-10vh);
     }
     
 }
 @keyframes accion{
-    0%{
-        width: 300%;
-    }
-    80%{
-        opacity: 100%;
-        margin-left: 0%;
-        width: 100%;
+    0%{   
+        opacity: 0; transform: translateY(0vh);
+     }
+    90%{
+        opacity: 1;
     }
     100%{
-        opacity: 0%;
-        margin-right: 100% ;
-        margin-left: -300%;
+        opacity: 0; transform: translateY(-10vh);
     }
 }
