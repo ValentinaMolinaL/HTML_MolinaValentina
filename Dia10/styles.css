@@ -1,8 +1,4 @@
 @font-face{
-    font-family: letraRegular;
-    src: url(fuentes/HoxtonNorthTrial-Regular-BF63c89813a9d5a.otf);
-}
-@font-face{
     font-family: letraMedium;
     src: url(fuentes/HoxtonNorthTrial-Medium-BF63c898143a962.otf);
 }
@@ -14,11 +10,25 @@
 .superior{
     width: 100vw;
     height: 9vh;
-    background-color: aqua;
+    background-color: white;
+}
+.superior .emojiAzul{
+    position: relative;
+    left: 1px;
+    top: 16px;
+    width: 4vw;
+    height: 5vh;
+}
+.superior .letraAzul{
+    position: relative;
+    left: 90px;
+    bottom: 64px;
+    font-size: 40px;
+    font-family: letraMedium;
 }
 .menu{
     height: 100vh;
-    width: 8vw;
+    width: 17.7vw;
     background-color: bisque;
 }
 .cajas{
@@ -26,8 +36,8 @@
 }
 .letrasCentro{
     position: relative;
-    left: 180px;
-    bottom: 890px;
+    left: 370px;
+    bottom: 910px;
     width: 20vw;
     height: 15vh;
     background-color:white;
@@ -49,8 +59,9 @@
 
 .cajitas1 {
     position: relative;
+    left: 170px;
     bottom: 170px;
-    width: 21vw;
+    width: 19vw;
     height: 20vh;
     background-color: white;
     margin-top: -38vw;
@@ -73,7 +84,7 @@
 }
 .cajitas1 .cj1Verde{
     position: relative;
-    left: 360px;
+    left: 290px;
     bottom: 40px;
     width: 1.5vw;
 }
@@ -100,8 +111,9 @@
 
 .cajitas2 {
     position: relative;
+    left: 170px;
     bottom: 170px;
-    width: 21vw;
+    width: 19vw;
     height: 20vh;
     background-color: white;
     margin-top: -38vw;
@@ -124,7 +136,7 @@
 }
 .cajitas2 .cj2Roja{
     position: relative;
-    left: 360px;
+    left: 290px;
     bottom: 40px;
     width: 2vw;
     height: 3vh;
@@ -152,8 +164,9 @@
 
 .cajitas3 {
     position: relative;
+    left: 170px;
     bottom: 170px;
-    width: 21vw;
+    width: 19vw;
     height: 20vh;
     background-color: white;
     margin-top: -38vw;
@@ -176,7 +189,7 @@
 }
 .cajitas3 .cj3Verde{
     position: relative;
-    left: 360px;
+    left: 290px;
     bottom: 40px;
     width: 1.5vw;
 }
@@ -202,8 +215,9 @@
 
 .cajitas4 {
     position: relative;
+    left: 170px;
     bottom: 170px;
-    width: 21vw;
+    width: 19vw;
     height: 20vh;
     background-color: white;
     margin-top: -38vw;
@@ -226,7 +240,7 @@
 }
 .cajitas4 .cj4Verde{
     position: relative;
-    left: 360px;
+    left: 290px;
     bottom: 40px;
     width: 1.5vw;
 }
@@ -252,26 +266,16 @@
 
 .cajaLarga{
     position: relative;
+    left: 170px;
     bottom: 210px;
     background-color: white;
-    width: 86.5vw;
+    width: 78.4vw;
     height: 20vh;
     margin-top: -27vw;
     margin-left: 10vw;
     border-radius: 0.5vw;
     box-shadow: 10px 10px 50px rgb(205, 203, 203);
 
-}
-.cajitas2 .cj2L1{
-    position: relative;
-    font-family: letraMedium;
-    font-size: larger;
-    left: 10px;
-}
-.cajitas2 .cj2L2{
-    position: relative;
-    font-family: letraMedium;
-    left: 10px;
 }
 .cajaLarga .Lt1Cl{    
     position: relative;
