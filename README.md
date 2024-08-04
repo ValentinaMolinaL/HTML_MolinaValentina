@@ -81,12 +81,12 @@ En esta pagina encontraras una animacion basica para el aprendizaje.
 En esta pagina encontraras una replica de AdminSite, con porcentajes y menu hamburguesa.
 
 
-### Uso
+## Uso
 
 - Clonar el repositorio o descargarlo.
 - Acceder al repositorio y abrir la carpeta deseada.
 
 
-### Créditos
+## Créditos
 
 -  Este repositorio fue hecho por Valentina Isabel Molina Lopera CC. 1007109135
