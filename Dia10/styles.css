@@ -5,32 +5,98 @@
 .contenedor{
     width: 100vw;
     height: 100vh;
-    background-color: white;
+    background-color: rgb(219, 238, 9);
+    overflow: hidden;
 }
 .superior{
-    width: 100vw;
+    width: 90vw;
     height: 9vh;
-    background-color: white;
+    background-color: rgb(215, 33, 179);
+    margin-left: 340px;
 }
-.superior .emojiAzul{
+.superior label{
+    position: relative;
+    left: 30px;
+    top: 30px;
+    
+}
+label img{
+    position: relative;
+    left: -9px;
+    bottom: 7px;
+    width: 2vw;
+    height: 4vh;
+}
+#menusito{
+    position: relative;
+    left: 400px;
+    bottom: 20px;
+    opacity: 0;
+}
+#menusito:checked ~ .menu{
+    margin-left: -50vw;
+}
+.menu{
+    position: relative;
+    bottom: 109px;
+    height: 100vh;
+    width: 17.7vw;
+    background-color: rgb(102, 80, 80);
+
+}
+.emojiAzul{
     position: relative;
     left: 1px;
-    top: 16px;
+    top: 45px;
     width: 4vw;
     height: 5vh;
 }
-.superior .letraAzul{
+.letraAzul{
     position: relative;
     left: 90px;
-    bottom: 64px;
+    bottom: 34px;
     font-size: 40px;
     font-family: letraMedium;
 }
-.menu{
-    height: 100vh;
-    width: 17.7vw;
-    background-color: bisque;
+.DashboardCuadroA {
+    position: relative;
+    left: 30px;
+    top: 200px;
+    width: 15vw;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: blue;
 }
+.DashboardCuadroA .Texto{
+    position: relative;
+    left: 80px;
+    top: 20px;
+    font-size: 30px;
+    font-family: letraMedium;
+    color: white;
+}
+.bloqueMain {
+    position: relative;
+    left: 30px;
+    top: 200px;
+    width: 15vw;
+    height: 20vh;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(210, 210, 231);
+}
+.bloqueMain .cuadroElements{
+    position: relative;
+    left: 1px;
+    top: 60px;
+    width: 15vw;
+    height: 7vh;
+    border-radius: 10px;
+    background-color: rgb(146, 146, 156);
+}
+
+
 .cajas{
     display: flex;
 }
@@ -40,7 +106,7 @@
     bottom: 910px;
     width: 20vw;
     height: 15vh;
-    background-color:white;
+    
 }
 .letrasCentro .palabra1{
     position: relative;
