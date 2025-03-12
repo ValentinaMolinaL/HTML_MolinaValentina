@@ -1,11 +1,11 @@
 body{/*Fondo principal*/
-    height: 2000px;
+    margin: 1z;
     background-image: linear-gradient(white, rgb(77, 77, 70));
 }
 .cuadro1{
-    position: relative;
-        Margin:auto;
-        top: 200px;
+
+    position: relative;        
+        top: 100px;
         width: 1400px;
         height: 800px;
         background-color: white  

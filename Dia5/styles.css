@@ -13,7 +13,6 @@
     position: relative;
     width: 1080px;
     height: 534px;
-    background-color: rgb(119, 114, 126);
     bottom: 35px;
 }
 .bloque1 .texto1B1{
@@ -120,7 +119,6 @@
     position: relative;
     width: 1080px;
     height: 590px;
-    background-color: rgb(154, 220, 202);
     bottom: 60px;
 }
 .bloque2 .texto1B2{
@@ -198,7 +196,6 @@
     position: relative;
     width: 1080px;
     height: 590px;
-    background-color: rgb(218, 194, 215);
     bottom: 76px;
 }
 .bloque3 .texto2B3{
@@ -221,7 +218,6 @@
     position: relative;
     width: 270px;
     height: 270px;
-    background-color: white;
     left: 90px;
     top: 70px;
 }
@@ -234,7 +230,7 @@
 }
 .bloque3 .cuadro1B3 .texto1C1B3{
     position: relative;
-    color: black;
+    color: white;
     font-size:18px;
     font-family: "letra";
     left:60px;
@@ -242,7 +238,7 @@
 }
 .bloque3 .cuadro1B3 .texto2C1B3{
     position: relative;
-    color: black;
+    color: white;
     font-size:16px;
     font-family: "letra";
     left:85px;
@@ -250,7 +246,7 @@
 }
 .bloque3 .cuadro1B3 .texto3C1B3{
     position: relative;
-    color: black;
+    color: white;
     font-size:16px;
     font-family: "letra";
     left:100px;
@@ -260,7 +256,6 @@
     position: relative;
     width: 270px;
     height: 270px;
-    background-color: rgb(155, 62, 62);
     left: 400px;
     bottom: 200px;
 }
@@ -273,7 +268,7 @@
 }
 .bloque3 .cuadro2B3 .texto1C2B3{
     position: relative;
-    color: black;
+    color:white;
     font-size:18px;
     font-family: "letra";
     left:40px;
@@ -281,7 +276,7 @@
 }
 .bloque3 .cuadro2B3 .texto2C2B3{
     position: relative;
-    color: black;
+    color: white;
     font-size:16px;
     font-family: "letra";
     left:80px;
@@ -289,7 +284,7 @@
 }
 .bloque3 .cuadro2B3 .texto3C2B3{
     position: relative;
-    color: black;
+    color: white;
     font-size:18px;
     font-family: "letra";
     left:100px;
@@ -299,7 +294,6 @@
     position: relative;
     width: 270px;
     height: 270px;
-    background-color: rgb(134, 221, 117);
     left: 700px;
     bottom: 470px;
 }
@@ -312,7 +306,7 @@
 }
 .bloque3 .cuadro3B3 .texto1C3B3{
     position: relative;
-    color: black;
+    color: white;
     font-size:18px;
     font-family: "letra";
     left:50px;
@@ -320,7 +314,7 @@
 }
 .bloque3 .cuadro3B3 .texto2C3B3{
     position: relative;
-    color: black;
+    color: wheat;
     font-size:16px;
     font-family: "letra";
     left:80px;
@@ -328,9 +322,54 @@
 }
 .bloque3 .cuadro3B3 .texto3C3B3{
     position: relative;
-    color: black;
+    color: wheat;
     font-size:18px;
     font-family: "letra";
     left:100px;
     bottom: 35px;
+}.bloque6{
+    display: inline-flex;
+    color:white;
+    font-family: "letra";
+    bottom: 90px;
+    position: relative;
+}
+.bloque6 h1{
+    font-size: 20px;
+}
+.bloque6 p{
+    line-height: 11px;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+}
+.bloque6 .caja1{
+    display: block;
+    margin-left: 180px;
+    margin-right: 70px;
+}
+.bloque6 .caja1 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 25px;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+}
+.bloque6 .caja2{
+    margin-right: 70px;
+}
+.bloque6 .caja3{
+    margin-right: 70px;
+}
+.bloque6 .rayita{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff702a;
+    position: relative;
+    bottom: 35px;
+}
+.bloque6 i{
+    position: relative;
+    bottom: 45px;
 }
