@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este repositorio fue creado por Molina Valentina y en el podras encontrar 10 carpetas con ejercicios de practica basica de HTML y CSS.
+Este repositorio fue creado por Molina Valentina y en el podras encontrar 9 carpetas con ejercicios de practica basica de HTML y CSS.
 
 ## Estructura del repositorio
 
@@ -71,15 +71,6 @@ En esta ventana encontraras la replica de (Bento Grids) con animaciones incluida
 * HTML
 * CSS
 En esta pagina encontraras una animacion basica para el aprendizaje.
-
-### - Carpeta 10: 
- En esta carpeta ahi 4 objetos los cueles son:
-* Carpeta de img
-* Carpeta para tipos de fuentes
-* HTML
-* CSS
-En esta pagina encontraras una replica de AdminSite, con porcentajes y menu hamburguesa.
-
 
 ## Uso
 
